@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio de María Meza, estudiante de Ingeniería de Sistemas de Información.">
+  <meta name="theme-color" content="#0b0d0d">
+  <title>María Meza — Portafolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!----CABECERA NAVEGACION-->
+  <header class="site-header">
+    <a class="brand" href="#inicio">MM<span>®</span></a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Navegación principal">
+      <a href="#inicio" class="active">Inicio</a><a href="#sobre-mi">Sobre mí</a><a href="#proyectos">Proyectos</a><a href="#habilidades">Habilidades</a><a href="#contacto">Contacto</a>
+    </nav>
+    <span class="header-note">PORTAFOLIO / 2026</span>
+  </header>
+
+  <main>
+
+    <!----PRESENTACION-->
+    <section class="cinematic-hero" id="inicio">
+      <div class="scene scene-back" aria-hidden="true"></div>
+      <div class="scene scene-front" aria-hidden="true"></div>
+      <div class="scene-shade" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="live-dot"></span> HOLA, SOY</p>
+        <h1>María <span>Meza.</span></h1>
+        <p class="hero-role">ESTUDIANTE EN INGENIERÍA DE SISTEMAS DE INFORMACIÓN</p>
+        <p class="hero-intro">Me apasiona crear soluciones con tecnología, aprender constantemente y explorar nuevas ideas. Aquí encontrarás algunos de mis proyectos y mi camino en el desarrollo de software.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#proyectos">Ver proyectos <span>↘</span></a><a class="button button-ghost" href="#contacto">Contáctame <span>↗</span></a></div>
+      </div>
+      <div class="hero-index"><span>01</span><i></i><span>04</span></div>
+      <a class="scroll-cue" href="#sobre-mi"><span class="scroll-line"></span><span>DESLIZA PARA EXPLORAR</span><span class="scroll-arrow">↓</span></a>
+      <div class="hero-caption">Mé</span></div>
+    </section>
+
+         <!----DESCRIPCION ACERCA DE MI-->
+
+    <section class="about-section section-wrap reveal" id="sobre-mi">
+      <div class="section-index"><span>01</span><i></i>SOBRE MÍ</div>
+      <div class="about-image-wrap">
+        <div class="about-image" role="img" aria-label="Templo en las montañas cubiertas de niebla"></div>
+        <span class="image-stamp">STAY CURIOUS<br><b>✳</b></span>
+      </div>
+      <div class="about-copy">
+        <p class="eyebrow">UN POCO SOBRE MÍ</p>
+        <h2>Curiosidad que<br>se convierte en <em>ideas.</em></h2>
+        <p>Soy estudiante de Ingeniería de Sistemas en la Universidad de Sonora. Me gusta aprender cómo funcionan las cosas y transformar ideas en soluciones útiles.</p>
+        <p>Disfruto la programación, los videojuegos y el diseño de experiencias digitales. Cada proyecto es una oportunidad para resolver problemas, experimentar y seguir creciendo.</p>
+        <div class="about-facts"><span>01 / CREATIVA</span><span>02 / ANALÍTICA</span><span>03 / EN APRENDIZAJE</span></div>
+        <a class="underlined-link" href="#habilidades">Explorar mis habilidades <span>↗</span></a>
+      </div>
+    </section>
+  
+        <!--------------PROYECTOS---------------->
+
+    <section class="projects-section" id="proyectos">
+      <div class="section-wrap">
+        <div class="section-heading reveal"><div><p class="eyebrow">02 / TRABAJO SELECCIONADO</p><h2>De un pensamiento<br><em>a una realidad.</em></h2></div><p>Una colección de proyectos, ejercicios y aprendizajes que representan mi formación como desarolladora.</p></div>
+      
+        <!----------------MANGASTORE TARJETA------------------------->
+        <div class="project-grid">
+       <article class="project-card reveal">
+
+    <div class="project-art project-preview">
+      <!----imagen MANGASTORE TARJETA-->
+      <img
+        src="img/MANGA.png"  
+        alt="Vista previa de mi proyecto de programación"
+        loading="lazy"
+      />
+      <span class="preview-label">01 — PÁGINA WEB/ PROGRAMACIÓN</span>
+    </div>
+
+    <div class="project-info">
+      <div>
+         <div class="project-meta">
+              <span>HTML · CSS · JAVASCRIPT · PYTHON </span>
+              <a href="https://github.com/MushCay/Proyecto_Final_DIV.git" target="_blank" rel="noreferrer" aria-label="Ver proyecto en GitHub">↗</a>
+            </div>
+        <h3>MANGASTORE</h3>
+      </div>  
+    </div>
+    <p class="project-description">
+      Sistema de gestion de una tienda de mangas. 
+      Cuenta con una api desarrollada en python para el manejo de peticiones entre el sisema y la base de datos y 
+      un frontend hecho con javascript, css y html.
+    </p>
+
+  </article>
+      <!----------------8 Reinas------------------------->
+       <article class="project-card reveal">
+
+    <div class="project-art project-preview">
+      <!----imagen MANGASTORE TARJETA-->
+      <img
+        src="img/8reinas.png"  
+        alt="Vista previa de mi proyecto de programación"
+        loading="lazy"
+      />
+      <span class="preview-label">01 — SIMULACIÓN/ PROGRAMACIÓN</span>
+    </div>
+
+    <div class="project-info">
+      <div>
+         <div class="project-meta">
+              <span>HTML · CSS · JAVASCRIPT · HTML </span>
+              <a href="https://github.com/anmaribaphomet/Simulacion8Reinas.git" target="_blank" rel="noreferrer" aria-label="Ver proyecto en GitHub">↗</a>
+            </div>
+        <h3>8 Reinas</h3>
+      </div>  
+    </div>
+    <p class="project-description">
+      Simulación del problema de las 8 reinas.
+    </p>
+     </article>
+
+
+           <!----------------galaxoom------------------------->
+
+       <article class="project-card reveal">
+
+    <div class="project-art project-preview">
+      <!----imagen MANGASTORE TARJETA-->
+      <img
+        src="img/Galaxoom.png"  
+        alt="Vista previa de mi proyecto de diseño"
+        loading="lazy"
+      />
+      <span class="preview-label">01 — SIMULACIÓN/JUEGO EDUCATIVO</span>
+    </div>
+
+    <div class="project-info">
+      <div>
+         <div class="project-meta">
+              <span>HTML · GOPAINT · FIGMA  </span>
+              <a href="https://www.figma.com/proto/hxMYTzd253iuEADp1SHhTg/PROYECTOS_ISI?node-id=1875-535&p=f&t=TenkbCwmCq2csF1Q-1&scaling=scale-down&content-scaling=fixed&page-id=1824%3A43&starting-point-node-id=1875%3A535&show-proto-sidebar=1" target="_blank" rel="noreferrer" aria-label="Visualizar">↗</a>
+            </div>
+        <h3>GALAXOOM</h3>
+      </div>  
+    </div>
+    <p class="project-description">
+      Simulación de videojuego educativo sobre el sistema solar. 
+    </p>
+     </article>
+    </section>
+ 
+     <!----HABILIDADEEEESSS-->
+    <section class="skills-section section-wrap reveal" id="habilidades">
+      <div class="skills-intro"><p class="eyebrow">03 / HERRAMIENTAS Y APRENDIZAJE</p><h2>Aprender.<br><em>Practicar.</em><br>Repetir.</h2></div>
+      <div class="skills-list">
+        <div class="skill-row"><span>01</span><b>Lenguajes</b><div class="skill-tags"><i>Java</i><i>JavaScript</i><i>Python</i><i>C#</i></div><span class="skill-plus">↗</span></div>
+        <div class="skill-row"><span>02</span><b>Herramientas</b><div class="skill-tags"><i>Git</i><i>GitHub</i><i>VS Code</i><i>VS</i><i>Postman</i><i>SQLManagement</i></div><span class="skill-plus">↗</span></div>
+        <div class="skill-row"><span>03</span><b>Fundamentos</b><div class="skill-tags"><i>Lógica</i><i>Resolución de problemas</i><i>Diseño adaptable</i></div><span class="skill-plus">↗</span></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contacto">
+      <div class="contact-landscape" aria-hidden="true"></div><div class="contact-overlay"></div>
+      <div class="section-wrap contact-inner reveal"><p class="eyebrow">
+      <span class="live-dot">
+      </span> 04 / CONTACTO</p><h2>Construyamos algo <em>juntos.</em></h2><p>¿Tienes una idea, una oportunidad o simplemente quieres conectar? Me encantará saber de ti.</p><a class="contact-email" href="mailto:mariamezadiaz2006@gmail.com">mariamezadiaz2006@gmail.com <span>↗</span></a><div class="social-links"><a href="https://github.com/anmaribaphomet" target="_blank" rel="noreferrer">GITHUB ↗</a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LINKEDIN ↗</a><a href="#inicio">VOLVER ARRIBA ↑</a></div></div>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="#inicio">MM<span>®</span></a><span>.</span><span>© <span id="year">2026</span> MARÍA MEZA</span></footer>
+</body>
+</html>
